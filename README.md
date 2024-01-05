@@ -1,5 +1,7 @@
 # FitTanCapillaryModel
 
+This code implements a curve fitting algorithm designed to align with our proposed saturation-capillary pressure relationship model, which is versatile enough to be applicable to a variety of wettability conditions, including mixed-wet, water-wet, and hydrophobic or oil-wet media. Unlike traditional models that primarily focus on water-wet scenarios, this advanced model introduces a flexible approach, enabling explicit determination of capillary pressure from saturation and vice versa.
+
 This is a capillary model based on a tangent function proposed as follows Foroughi et al. [1]:
 
 **J(S<sub>e</sub>) = A + B * tan(π/2 - π * S<sub>e</sub><sup>C</sup>)**
